@@ -1,0 +1,10 @@
+-batch 
+-create tft_ctrl 
+-ver 1.00.a 
+-dir D:\Study\FPGA\Spartan6\TFT_Display\ 
+-lang verilog 
+-bus fsl s 
+-xps 
+-totalin 8
+-argin 1
+-desc "new FSL core"

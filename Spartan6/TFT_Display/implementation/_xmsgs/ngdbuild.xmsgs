@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="135" delta="old" >Constraint <arg fmt="%s" index="1">&lt;INST /system/EXPANDED/system/axi4_0/axi4_0\/si_converter_bank\/gen_conv_slot[0].clock_conv_inst\/interconnect_aresetn_resync&lt;2&gt;_inv1_INV_0 TNM = FFS:axi4_0_reset_resync&gt;</arg>: No instances of type <arg fmt="%s" index="2">FFS</arg> were found under block &quot;<arg fmt="%s" index="3">axi4_0/axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync&lt;2&gt;_inv1_INV_0</arg>&quot; (type=<arg fmt="%s" index="4">INV</arg>).
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="135" delta="old" >Constraint <arg fmt="%s" index="1">&lt;INST /system/EXPANDED/system/axi4lite_0/axi4lite_0\/si_converter_bank\/gen_conv_slot[0].clock_conv_inst\/interconnect_aresetn_resync&lt;2&gt;_inv1_INV_0 TNM = FFS:axi4lite_0_reset_resync&gt;</arg>: No instances of type <arg fmt="%s" index="2">FFS</arg> were found under block &quot;<arg fmt="%s" index="3">axi4lite_0/axi4lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_resync&lt;2&gt;_inv1_INV_0</arg>&quot; (type=<arg fmt="%s" index="4">INV</arg>).
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_rzq&quot; LOC = C2&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_ldm&quot; LOC = K3&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_udm&quot; LOC = K4&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_udqs&quot; LOC = P2&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dqs&quot; LOC = L4&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_clk_n&quot; LOC = G1&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_clk&quot; LOC = G3&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_cke&quot; LOC = H7&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_we_n&quot; LOC = E3&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_cas_n&quot; LOC = K5&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_ras_n&quot; LOC = L5&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;0&gt;&quot; LOC = L2&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;1&gt;&quot; LOC = L1&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;2&gt;&quot; LOC = K2&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;3&gt;&quot; LOC = K1&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;4&gt;&quot; LOC = H2&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;5&gt;&quot; LOC = H1&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;6&gt;&quot; LOC = J3&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;7&gt;&quot; LOC = J1&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;8&gt;&quot; LOC = M3&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;9&gt;&quot; LOC = M1&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;10&gt;&quot; LOC = N2&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;11&gt;&quot; LOC = N1&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;12&gt;&quot; LOC = T2&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;13&gt;&quot; LOC = T1&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;14&gt;&quot; LOC = U2&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_dq&lt;15&gt;&quot; LOC = U1&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_ba&lt;0&gt;&quot; LOC = F2&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_ba&lt;1&gt;&quot; LOC = F1&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_addr&lt;0&gt;&quot; LOC = J7&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_addr&lt;1&gt;&quot; LOC = J6&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_addr&lt;2&gt;&quot; LOC = H5&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_addr&lt;3&gt;&quot; LOC = L7&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_addr&lt;4&gt;&quot; LOC = F3&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_addr&lt;5&gt;&quot; LOC = H4&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_addr&lt;6&gt;&quot; LOC = H3&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_addr&lt;7&gt;&quot; LOC = H6&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_addr&lt;8&gt;&quot; LOC = D2&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_addr&lt;9&gt;&quot; LOC = D1&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_addr&lt;10&gt;&quot; LOC = F4&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_addr&lt;11&gt;&quot; LOC = D3&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;MCB_DDR2_dram_addr&lt;12&gt;&quot; LOC = G6&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="58" delta="old" >Constraint <arg fmt="%s" index="1">&lt;TIMEGRP axi4lite_0_reset_source = FFS PADS CPUS;&gt;</arg>: <arg fmt="%s" index="2">CPUS &quot;*&quot;</arg> does not match any design objects.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="58" delta="old" >Constraint <arg fmt="%s" index="1">&lt;TIMEGRP axi4_0_reset_source = FFS PADS CPUS;&gt;</arg>: <arg fmt="%s" index="2">CPUS &quot;*&quot;</arg> does not match any design objects.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="194" delta="old" >The <arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">axi4_0_reset_resync</arg>&apos;, does not directly or indirectly drive any flip-flops, latches and/or RAMs and is not actively used by any referencing constraint.
+ </msg>
+
+<msg type="warning" file="ConstraintSystem" num="194" delta="old" >The <arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">axi4lite_0_reset_resync</arg>&apos;, does not directly or indirectly drive any flip-flops, latches and/or RAMs and is not actively used by any referencing constraint.
+ </msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">sys_clk_pin</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_sys_clk_pin</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_clk_600_0000MHz180PLL0_nobuf = PERIOD &quot;clk_600_0000MHz180PLL0_nobuf&quot; TS_sys_clk_pin * 8 PHASE 1.25 ns HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">sys_clk_pin</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_sys_clk_pin</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_clk_600_0000MHzPLL0_nobuf = PERIOD &quot;clk_600_0000MHzPLL0_nobuf&quot; TS_sys_clk_pin * 8 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">sys_clk_pin</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_sys_clk_pin</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT2 = PERIOD &quot;clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT2&quot; TS_sys_clk_pin * 2 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;CONFIG VCCAUX = &quot;2.5&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">system</arg> by the constraint <arg fmt="%s" index="3">&lt;CONFIG VCCAUX=2.5;&gt; [system.ucf(48)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_rzq&quot; LOC = C2&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_rzq</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_rzq&quot; loc = C2;&gt; [system.ucf(98)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_rzq&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_rzq</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_rzq&quot;                                            IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(114)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_ldm&quot; LOC = K3&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_ldm</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_ldm&quot; loc = K3;&gt; [system.ucf(94)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_ldm&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_ldm</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_ldm&quot;                             IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(112)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_udm&quot; LOC = K4&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_udm</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_udm&quot; loc = K4;&gt; [system.ucf(96)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_udm&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_udm</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_udm&quot;                             IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(113)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_udqs&quot; LOC = P2&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_udqs</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_udqs&quot; loc = P2;&gt; [system.ucf(92)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_udqs&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_udqs</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_udqs&quot;                                      IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(105)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dqs&quot; LOC = L4&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dqs</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dqs&quot; loc = L4;&gt; [system.ucf(91)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dqs&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dqs</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dqs&quot;                                       IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(104)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_clk_n&quot; LOC = G1&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_clk_n</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_clk_n&quot; loc = G1;&gt; [system.ucf(71)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_clk_n&quot; IOSTANDARD = &quot;DIFF_MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_clk_n</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_clk_n&quot;                           IOSTANDARD = DIFF_MOBILE_DDR ;&gt; [system.ucf(107)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_clk&quot; LOC = G3&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_clk</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_clk&quot;   loc = G3;&gt; [system.ucf(72)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_clk&quot; IOSTANDARD = &quot;DIFF_MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_clk</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_clk&quot;                             IOSTANDARD = DIFF_MOBILE_DDR ;&gt; [system.ucf(106)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_cke&quot; LOC = H7&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_cke</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_cke&quot;   loc = H7;&gt; [system.ucf(70)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_cke&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_cke</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_cke&quot;                             IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(108)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_we_n&quot; LOC = E3&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_we_n</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_we_n&quot; loc = E3;&gt; [system.ucf(97)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_we_n&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_we_n</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_we_n&quot;                            IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(111)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_cas_n&quot; LOC = K5&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_cas_n</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_cas_n&quot; loc = K5;&gt; [system.ucf(69)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_cas_n&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_cas_n</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_cas_n&quot;                           IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(110)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_ras_n&quot; LOC = L5&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_ras_n</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_ras_n&quot; loc = L5;&gt; [system.ucf(95)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_ras_n&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_ras_n</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_ras_n&quot;                           IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(109)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;0&gt;&quot; LOC = L2&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;0&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;0&gt;&quot; loc = L2;&gt; [system.ucf(89)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;0&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;0&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;1&gt;&quot; LOC = L1&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;1&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;1&gt;&quot; loc = L1;&gt; [system.ucf(88)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;1&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;1&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;2&gt;&quot; LOC = K2&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;2&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;2&gt;&quot; loc = K2;&gt; [system.ucf(87)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;2&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;2&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;3&gt;&quot; LOC = K1&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;3&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;3&gt;&quot; loc = K1;&gt; [system.ucf(86)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;3&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;3&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;4&gt;&quot; LOC = H2&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;4&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;4&gt;&quot; loc = H2;&gt; [system.ucf(85)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;4&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;4&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;5&gt;&quot; LOC = H1&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;5&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;5&gt;&quot; loc = H1;&gt; [system.ucf(84)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;5&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;5&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;6&gt;&quot; LOC = J3&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;6&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;6&gt;&quot; loc = J3;&gt; [system.ucf(83)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;6&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;6&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;7&gt;&quot; LOC = J1&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;7&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;7&gt;&quot; loc = J1;&gt; [system.ucf(82)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;7&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;7&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;8&gt;&quot; LOC = M3&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;8&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;8&gt;&quot; loc = M3;&gt; [system.ucf(81)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;8&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;8&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;9&gt;&quot; LOC = M1&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;9&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;9&gt;&quot; loc = M1;&gt; [system.ucf(80)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;9&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;9&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;10&gt;&quot; LOC = N2&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;10&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;10&gt;&quot; loc = N2;&gt; [system.ucf(79)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;10&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;10&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;11&gt;&quot; LOC = N1&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;11&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;11&gt;&quot; loc = N1;&gt; [system.ucf(78)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;11&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;11&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;12&gt;&quot; LOC = T2&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;12&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;12&gt;&quot; loc = T2;&gt; [system.ucf(77)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;12&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;12&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;13&gt;&quot; LOC = T1&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;13&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;13&gt;&quot; loc = T1;&gt; [system.ucf(76)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;13&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;13&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;14&gt;&quot; LOC = U2&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;14&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;14&gt;&quot; loc = U2;&gt; [system.ucf(75)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;14&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;14&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;15&gt;&quot; LOC = U1&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;15&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_dq&lt;15&gt;&quot; loc = U1;&gt; [system.ucf(74)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_dq&lt;15&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_dq&lt;15&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_dq[*]&quot;                                     IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(101)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_ba&lt;0&gt;&quot; LOC = F2&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_ba&lt;0&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_ba&lt;0&gt;&quot; loc = F2;&gt; [system.ucf(68)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_ba&lt;0&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_ba&lt;0&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_ba[*]&quot;                           IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(103)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_ba&lt;1&gt;&quot; LOC = F1&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_ba&lt;1&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_ba&lt;1&gt;&quot; loc = F1;&gt; [system.ucf(67)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_ba&lt;1&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_ba&lt;1&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_ba[*]&quot;                           IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(103)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;0&gt;&quot; LOC = J7&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;0&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_addr&lt;0&gt;&quot; loc = J7;&gt; [system.ucf(65)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;0&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;0&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_addr[*]&quot;                         IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(102)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;1&gt;&quot; LOC = J6&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;1&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_addr&lt;1&gt;&quot; loc = J6;&gt; [system.ucf(64)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;1&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;1&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_addr[*]&quot;                         IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(102)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;2&gt;&quot; LOC = H5&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;2&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_addr&lt;2&gt;&quot; loc = H5;&gt; [system.ucf(63)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;2&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;2&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_addr[*]&quot;                         IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(102)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;3&gt;&quot; LOC = L7&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;3&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_addr&lt;3&gt;&quot; loc = L7;&gt; [system.ucf(62)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;3&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;3&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_addr[*]&quot;                         IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(102)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;4&gt;&quot; LOC = F3&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;4&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_addr&lt;4&gt;&quot; loc = F3;&gt; [system.ucf(61)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;4&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;4&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_addr[*]&quot;                         IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(102)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;5&gt;&quot; LOC = H4&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;5&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_addr&lt;5&gt;&quot; loc = H4;&gt; [system.ucf(60)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;5&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;5&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_addr[*]&quot;                         IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(102)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;6&gt;&quot; LOC = H3&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;6&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_addr&lt;6&gt;&quot; loc = H3;&gt; [system.ucf(59)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;6&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;6&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_addr[*]&quot;                         IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(102)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;7&gt;&quot; LOC = H6&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;7&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_addr&lt;7&gt;&quot; loc = H6;&gt; [system.ucf(58)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;7&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;7&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_addr[*]&quot;                         IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(102)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;8&gt;&quot; LOC = D2&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;8&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_addr&lt;8&gt;&quot; loc = D2;&gt; [system.ucf(57)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;8&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;8&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_addr[*]&quot;                         IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(102)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;9&gt;&quot; LOC = D1&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;9&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_addr&lt;9&gt;&quot; loc = D1;&gt; [system.ucf(56)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;9&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;9&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_addr[*]&quot;                         IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(102)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;10&gt;&quot; LOC = F4&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;10&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_addr&lt;10&gt;&quot; loc = F4;&gt; [system.ucf(55)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;10&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;10&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_addr[*]&quot;                         IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(102)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;11&gt;&quot; LOC = D3&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;11&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_addr&lt;11&gt;&quot; loc = D3;&gt; [system.ucf(54)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;11&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;11&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_addr[*]&quot;                         IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(102)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;12&gt;&quot; LOC = G6&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;12&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;net&quot;MCB_DDR2_dram_addr&lt;12&gt;&quot; loc = G6;&gt; [system.ucf(53)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;MCB_DDR2_dram_addr&lt;12&gt;&quot; IOSTANDARD = &quot;MOBILE_DDR&quot;&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">MCB_DDR2_dram_addr&lt;12&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET  &quot;MCB_DDR2_dram_addr[*]&quot;                         IOSTANDARD = MOBILE_DDR ;&gt; [system.ucf(102)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Using_FPGA.Gen_Bits[27].MEM_EX_Result_Inst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N27</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N28</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N29</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N30</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N31</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N32</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N33</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N34</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N35</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N36</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N37</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N38</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N39</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N40</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N41</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N42</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N45</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N46</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N47</arg>&apos; has no driver
+</msg>
+
+</messages>
+

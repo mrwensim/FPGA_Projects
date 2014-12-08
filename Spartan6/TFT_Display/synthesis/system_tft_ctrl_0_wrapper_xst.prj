@@ -1,0 +1,3 @@
+verilog tft_ctrl_v1_00_a D:\Study\FPGA\Spartan6\TFT_Display\pcores\tft_ctrl_v1_00_a/hdl/verilog/tft_ctrl.v
+verilog tft_ctrl_v1_00_a D:\Study\FPGA\Spartan6\TFT_Display\pcores\tft_ctrl_v1_00_a/hdl/verilog/lcd_ctrl.v
+verilog work ../hdl/system_tft_ctrl_0_wrapper.v

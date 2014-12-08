@@ -1,0 +1,51 @@
+11:09:35.088 INFO  - Processing command line option -hwspec D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\hw\system.xml. 
+11:27:55.660 ERROR - Exception while attemping to 'diff' hardware specification files. 
+11:27:55.826 INFO  - Project TFT_Display_hw_platform's source hardware specification located at D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+11:27:57.901 ERROR - Unable to save current hardware specification file in a temporary location. 
+11:27:57.901 ERROR - File does not found exception. File provided:  D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\sw\TFT_Display_hw_platform\system.xmljava.io.FileNotFoundException: D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\sw\TFT_Display_hw_platform\system.xml (系统找不到指定的文件。) 
+11:27:57.964 INFO  - Copied contents of D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\hw\system.xml into \TFT_Display_hw_platform\system.xml. 
+11:27:58.276 INFO  - Copied contents of D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\hw\system.bit into \TFT_Display_hw_platform\system.bit. 
+11:27:58.276 INFO  - Copied contents of D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\hw\system_bd.bmm into \TFT_Display_hw_platform\system_bd.bmm. 
+11:28:56.378 INFO  - FPGA configured successfully with bitstream "D:/Study/FPGA/Spartan6/TFT_Display/SDK/SDK_Export/sw/TFT_Display_hw_platform/download.bit" 
+11:31:58.061 INFO  - FPGA configured successfully with bitstream "D:/Study/FPGA/Spartan6/TFT_Display/SDK/SDK_Export/sw/TFT_Display_hw_platform/download.bit" 
+11:40:16.913 INFO  - Successfully generated D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\sw\tft_display\src\lscript.ld. 
+11:40:16.916 INFO  - Applying linker script to all configurations of project tft_display. 
+11:40:16.917 INFO  - Setting rebuild state to true for all configurations of project tft_display. 
+11:40:43.641 INFO  - FPGA configured successfully with bitstream "D:/Study/FPGA/Spartan6/TFT_Display/SDK/SDK_Export/sw/TFT_Display_hw_platform/download.bit" 
+11:49:41.899 INFO  - FPGA configured successfully with bitstream "D:/Study/FPGA/Spartan6/TFT_Display/SDK/SDK_Export/sw/TFT_Display_hw_platform/download.bit" 
+11:52:18.709 INFO  - FPGA configured successfully with bitstream "D:/Study/FPGA/Spartan6/TFT_Display/SDK/SDK_Export/sw/TFT_Display_hw_platform/download.bit" 
+11:54:27.022 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:54:29.026 INFO  - System reset is completed. 
+11:56:01.942 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+11:56:01.944 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+19:17:43.104 INFO  - Processing command line option -hwspec D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\hw\system.xml. 
+19:17:44.804 INFO  - The hardware specification for project 'TFT_Display_hw_platform' is different from D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\hw\system.xml. 
+19:17:45.272 INFO  - Copied contents of D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\hw\system.xml into \TFT_Display_hw_platform\system.xml. 
+19:17:45.272 INFO  - Copied contents of D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\hw\system.bit into \TFT_Display_hw_platform\system.bit. 
+19:17:45.288 INFO  - Copied contents of D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\hw\system_bd.bmm into \TFT_Display_hw_platform\system_bd.bmm. 
+19:17:45.506 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+19:17:47.441 INFO  - Updating hardware inferred compiler options for tft_display. 
+19:17:47.519 INFO  - Clearing existing target manager status. 
+19:19:25.060 INFO  - FPGA configured successfully with bitstream "D:/Study/FPGA/Spartan6/TFT_Display/SDK/SDK_Export/sw/TFT_Display_hw_platform/download.bit" 
+19:21:18.196 INFO  - FPGA configured successfully with bitstream "D:/Study/FPGA/Spartan6/TFT_Display/SDK/SDK_Export/sw/TFT_Display_hw_platform/download.bit" 
+19:21:51.451 INFO  - FPGA configured successfully with bitstream "D:/Study/FPGA/Spartan6/TFT_Display/SDK/SDK_Export/sw/TFT_Display_hw_platform/download.bit" 
+19:22:42.460 INFO  - FPGA configured successfully with bitstream "D:/Study/FPGA/Spartan6/TFT_Display/SDK/SDK_Export/sw/TFT_Display_hw_platform/download.bit" 
+19:23:04.599 INFO  - FPGA configured successfully with bitstream "D:/Study/FPGA/Spartan6/TFT_Display/SDK/SDK_Export/sw/TFT_Display_hw_platform/download.bit" 
+19:23:28.704 INFO  - FPGA configured successfully with bitstream "D:/Study/FPGA/Spartan6/TFT_Display/SDK/SDK_Export/sw/TFT_Display_hw_platform/download.bit" 
+19:24:55.859 INFO  - FPGA configured successfully with bitstream "D:/Study/FPGA/Spartan6/TFT_Display/SDK/SDK_Export/sw/TFT_Display_hw_platform/download.bit" 
+19:32:54.849 INFO  - FPGA configured successfully with bitstream "D:/Study/FPGA/Spartan6/TFT_Display/SDK/SDK_Export/sw/TFT_Display_hw_platform/download.bit" 
+20:02:31.125 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+18:19:45.392 INFO  - Processing command line option -hwspec D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\hw\system.xml. 
+18:19:47.145 INFO  - The hardware specification for project 'TFT_Display_hw_platform' is different from D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\hw\system.xml. 
+18:19:47.456 INFO  - Copied contents of D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\hw\system.xml into \TFT_Display_hw_platform\system.xml. 
+18:19:47.460 INFO  - Copied contents of D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\hw\system.bit into \TFT_Display_hw_platform\system.bit. 
+18:19:47.462 INFO  - Copied contents of D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\hw\system_bd.bmm into \TFT_Display_hw_platform\system_bd.bmm. 
+18:19:47.711 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+18:19:49.662 INFO  - Updating hardware inferred compiler options for tft_display. 
+18:19:49.717 INFO  - Clearing existing target manager status. 
+18:20:52.880 INFO  - FPGA configured successfully with bitstream "D:/Study/FPGA/Spartan6/TFT_Display/SDK/SDK_Export/sw/TFT_Display_hw_platform/download.bit" 
+20:11:53.516 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

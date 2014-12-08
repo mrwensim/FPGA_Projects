@@ -1,0 +1,434 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:\Study\FPGA\Spartan6\TFT_Display\synthesis\xst_temp_dir\
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_tft_ctrl_0_wrapper_xst.prj"
+Verilog Include Directory          : {"D:\Study\FPGA\Spartan6\TFT_Display\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+
+---- Target Parameters
+Target Device                      : xc6slx16csg324-2
+Output File Name                   : "../implementation/system_tft_ctrl_0_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_tft_ctrl_0_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:/Study/FPGA/Spartan6/TFT_Display/pcores/tft_ctrl_v1_00_a/hdl/verilog/tft_ctrl.v" into library tft_ctrl_v1_00_a
+Parsing module <tft_ctrl>.
+Analyzing Verilog file "D:/Study/FPGA/Spartan6/TFT_Display/pcores/tft_ctrl_v1_00_a/hdl/verilog/lcd_ctrl.v" into library tft_ctrl_v1_00_a
+Parsing module <lcd_ctrl>.
+Analyzing Verilog file "D:\Study\FPGA\Spartan6\TFT_Display\hdl\system_tft_ctrl_0_wrapper.v" into library work
+Parsing module <system_tft_ctrl_0_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <system_tft_ctrl_0_wrapper>.
+
+Elaborating module <tft_ctrl>.
+WARNING:HDLCompiler:413 - "D:/Study/FPGA/Spartan6/TFT_Display/pcores/tft_ctrl_v1_00_a/hdl/verilog/tft_ctrl.v" Line 132: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <lcd_ctrl>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_tft_ctrl_0_wrapper>.
+    Related source file is "D:\Study\FPGA\Spartan6\TFT_Display\hdl\system_tft_ctrl_0_wrapper.v".
+    Summary:
+	no macro.
+Unit <system_tft_ctrl_0_wrapper> synthesized.
+
+Synthesizing Unit <tft_ctrl>.
+    Related source file is "D:/Study/FPGA/Spartan6/TFT_Display/pcores/tft_ctrl_v1_00_a/hdl/verilog/tft_ctrl.v".
+WARNING:Xst:647 - Input <FSL_S_Data<31:16>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FSL_S_Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <IsSta>.
+    Found 1-bit register for signal <IsReg>.
+    Found 16-bit register for signal <M_DB>.
+    Found 2-bit register for signal <state>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 4                                              |
+    | Clock              | FSL_Clk (rising_edge)                          |
+    | Reset              | FSL_Rst (positive)                             |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <tft_ctrl> synthesized.
+
+Synthesizing Unit <lcd_ctrl>.
+    Related source file is "D:/Study/FPGA/Spartan6/TFT_Display/pcores/tft_ctrl_v1_00_a/hdl/verilog/lcd_ctrl.v".
+    Found 3-bit register for signal <s>.
+    Found 1-bit register for signal <LCD_CS>.
+    Found 1-bit register for signal <LCD_RS>.
+    Found 1-bit register for signal <LCD_WR>.
+    Found 1-bit register for signal <IsBusy>.
+    Found 16-bit register for signal <DB_BUS>.
+    Found 8-bit register for signal <C1>.
+    Found 3-bit adder for signal <s[2]_GND_3_o_add_8_OUT> created at line 43.
+    Found 8-bit adder for signal <C1[7]_GND_3_o_add_12_OUT> created at line 48.
+    Found 3-bit 7-to-1 multiplexer for signal <s[2]_GND_3_o_wide_mux_16_OUT> created at line 24.
+    Found 8-bit comparator greater for signal <C1[7]_DELAY[7]_LessThan_12_o> created at line 48
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  31 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred  10 Multiplexer(s).
+Unit <lcd_ctrl> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 3-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 10
+ 1-bit register                                        : 6
+ 16-bit register                                       : 2
+ 3-bit register                                        : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 11
+ 1-bit 2-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 3
+ 3-bit 7-to-1 multiplexer                              : 1
+ 32-bit 2-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 4
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 3-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 49
+ Flip-Flops                                            : 49
+# Comparators                                          : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 10
+ 1-bit 2-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 3
+ 3-bit 7-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 4
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <tft_ctrl_0/FSM_0> on signal <state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+ 11    | 11
+-------------------
+
+Optimizing unit <system_tft_ctrl_0_wrapper> ...
+
+Optimizing unit <tft_ctrl> ...
+
+Optimizing unit <lcd_ctrl> ...
+WARNING:Xst:1710 - FF/Latch <C1_7> (without init value) has a constant value of 0 in block <lcd_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <C1_2> (without init value) has a constant value of 0 in block <lcd_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <C1_3> (without init value) has a constant value of 0 in block <lcd_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <C1_4> (without init value) has a constant value of 0 in block <lcd_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <C1_5> (without init value) has a constant value of 0 in block <lcd_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <C1_6> (without init value) has a constant value of 0 in block <lcd_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <C1_7> (without init value) has a constant value of 0 in block <lcd_ctrl>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_tft_ctrl_0_wrapper, actual ratio is 0.
+FlipFlop tft_ctrl_0/u0/s_0 has been replicated 1 time(s)
+FlipFlop tft_ctrl_0/u0/s_1 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 47
+ Flip-Flops                                            : 47
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system_tft_ctrl_0_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 50
+#      INV                         : 2
+#      LUT3                        : 3
+#      LUT4                        : 5
+#      LUT5                        : 38
+#      LUT6                        : 1
+#      VCC                         : 1
+# FlipFlops/Latches                : 47
+#      FDE                         : 32
+#      FDR                         : 9
+#      FDRE                        : 2
+#      FDS                         : 4
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              47  out of  18224     0%  
+ Number of Slice LUTs:                   49  out of   9112     0%  
+    Number used as Logic:                49  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     50
+   Number with an unused Flip Flop:       3  out of     50     6%  
+   Number with an unused LUT:             1  out of     50     2%  
+   Number of fully used LUT-FF pairs:    46  out of     50    92%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                          58
+ Number of bonded IOBs:                   0  out of    232     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)          | Load  |
+-----------------------------------+--------------------------------+-------+
+FSL_Clk                            | NONE(tft_ctrl_0/state_FSM_FFd2)| 47    |
+-----------------------------------+--------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 3.301ns (Maximum Frequency: 302.938MHz)
+   Minimum input arrival time before clock: 0.605ns
+   Maximum output required time after clock: 2.089ns
+   Maximum combinational path delay: 0.359ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'FSL_Clk'
+  Clock period: 3.301ns (frequency: 302.939MHz)
+  Total number of paths / destination ports: 199 / 81
+-------------------------------------------------------------------------
+Delay:               3.301ns (Levels of Logic = 1)
+  Source:            tft_ctrl_0/u0/s_2 (FF)
+  Destination:       tft_ctrl_0/u0/DB_BUS_15 (FF)
+  Source Clock:      FSL_Clk rising
+  Destination Clock: FSL_Clk rising
+
+  Data Path: tft_ctrl_0/u0/s_2 to tft_ctrl_0/u0/DB_BUS_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             11   0.525   1.038  tft_ctrl_0/u0/s_2 (tft_ctrl_0/u0/s_2)
+     INV:I->O             16   0.255   1.181  tft_ctrl_0/u0/_n0064_inv1_cepot_INV_0 (tft_ctrl_0/u0/_n0064_inv1_cepot)
+     FDE:CE                    0.302          tft_ctrl_0/u0/DB_BUS_0
+    ----------------------------------------
+    Total                      3.301ns (1.082ns logic, 2.219ns route)
+                                       (32.8% logic, 67.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'FSL_Clk'
+  Total number of paths / destination ports: 84 / 51
+-------------------------------------------------------------------------
+Offset:              0.605ns (Levels of Logic = 1)
+  Source:            FSL_Rst (PAD)
+  Destination:       tft_ctrl_0/M_DB_15 (FF)
+  Destination Clock: FSL_Clk rising
+
+  Data Path: FSL_Rst to tft_ctrl_0/M_DB_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT5:I1->O            1   0.254   0.000  tft_ctrl_0/u0/DB_BUS_0_dpot (tft_ctrl_0/u0/DB_BUS_0_dpot)
+     FDE:D                     0.074          tft_ctrl_0/u0/DB_BUS_0
+    ----------------------------------------
+    Total                      0.605ns (0.605ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'FSL_Clk'
+  Total number of paths / destination ports: 21 / 20
+-------------------------------------------------------------------------
+Offset:              2.089ns (Levels of Logic = 1)
+  Source:            tft_ctrl_0/state_FSM_FFd2 (FF)
+  Destination:       FSL_S_Read (PAD)
+  Source Clock:      FSL_Clk rising
+
+  Data Path: tft_ctrl_0/state_FSM_FFd2 to FSL_S_Read
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             21   0.525   1.310  tft_ctrl_0/state_FSM_FFd2 (tft_ctrl_0/state_FSM_FFd2)
+     LUT3:I2->O            0   0.254   0.000  tft_ctrl_0/state_FSM_FFd1-In21 (FSL_S_Read)
+    ----------------------------------------
+    Total                      2.089ns (0.779ns logic, 1.310ns route)
+                                       (37.3% logic, 62.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               0.359ns (Levels of Logic = 1)
+  Source:            FSL_S_Exists (PAD)
+  Destination:       FSL_S_Read (PAD)
+
+  Data Path: FSL_S_Exists to FSL_S_Read
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT3:I1->O            0   0.250   0.000  tft_ctrl_0/state_FSM_FFd1-In21 (FSL_S_Read)
+    ----------------------------------------
+    Total                      0.359ns (0.359ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock FSL_Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+FSL_Clk        |    3.301|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.36 secs
+ 
+--> 
+
+Total memory usage is 257720 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

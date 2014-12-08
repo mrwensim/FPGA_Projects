@@ -1,0 +1,19 @@
+D:\Study\FPGA\Spartan6\TFT_Display\implementation\system.ngc 1418033488
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_rs232_wrapper.ngc 1418033444
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_proc_sys_reset_0_wrapper.ngc 1418033342
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_clock_generator_0_wrapper.ngc 1418033454
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_fsl_v20_0_wrapper.ngc 1418033342
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_microblaze_0_ilmb_wrapper.ngc 1418033342
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_microblaze_0_dlmb_wrapper.ngc 1418033342
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_mcb_ddr2_wrapper.ngc 1418033342
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_axi4lite_0_wrapper.ngc 1418033459
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_axi4_0_wrapper.ngc 1418033463
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_microblaze_0_wrapper.ngc 1418033449
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_tft_ctrl_0_wrapper.ngc 1418033342
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_microblaze_0_i_bram_ctrl_wrapper.ngc 1418033342
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_microblaze_0_d_bram_ctrl_wrapper.ngc 1418033342
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_debug_module_wrapper.ngc 1418033342
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_tft_rst_blcnt_wrapper.ngc 1418033342
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_axi_spi_0_wrapper.ngc 1418033342
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_microblaze_0_bram_block_wrapper.ngc 1418033342
+OK

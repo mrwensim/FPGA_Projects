@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="D:\Study\FPGA\Spartan6\TFT_Display\SDK\SDK_Export\sw\tft_display\Debug\tft_display.elf" key="TFT_Display_hw_platform-microblaze_0-initElf"/>
+	<item value="system.bit" key="TFT_Display_hw_platform-bitFile"/>
+	<item value="system_bd.bmm" key="TFT_Display_hw_platform-bmmFile"/>
+</section>

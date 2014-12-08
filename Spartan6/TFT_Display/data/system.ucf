@@ -1,0 +1,114 @@
+
+NET "CLKIN" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 50000 kHz;
+NET "CLKIN" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "CLKIN" LOC = R10 | IOSTANDARD = LVCMOS33;
+NET "RESET" LOC = K6 | IOSTANDARD = LVCMOS18;
+NET "RS232_Uart_1_sin" LOC = C5 | IOSTANDARD = LVCMOS33;
+NET "RS232_Uart_1_sout" LOC = A5 | IOSTANDARD = LVCMOS33;
+
+#FLASH
+Net axi_spi_0_SCK_pin LOC=R15  |  IOSTANDARD = LVCMOS33;
+Net axi_spi_0_MOSI_pin LOC=T13  |  IOSTANDARD = LVCMOS33;
+Net axi_spi_0_MISO_pin LOC=R13  |  IOSTANDARD = LVCMOS33;
+Net axi_spi_0_SS_pin LOC=V3  |  IOSTANDARD = LVCMOS33;
+
+#tft_ctrl_0_pin
+Net tft_ctrl_0_DB_BUS_pin[0] LOC=M13  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_DB_BUS_pin[2] LOC=N14  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_DB_BUS_pin[4] LOC=U18  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_DB_BUS_pin[6] LOC=T18  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_DB_BUS_pin[8] LOC=N16  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_DB_BUS_pin[10] LOC=P18  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_DB_BUS_pin[12] LOC=N18  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_DB_BUS_pin[14] LOC=M18  |  IOSTANDARD = LVCMOS33;
+
+Net tft_ctrl_0_LCD_CS_pin LOC=L18  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_LCD_WR_pin LOC=K18  |  IOSTANDARD = LVCMOS33;
+
+#TFT_RST
+Net TFT_RST_BLCNT_GPIO_IO_pin[0] LOC=J18 |	IOSTANDARD = LVCMOS33;
+#TFT_BLCNT
+Net TFT_RST_BLCNT_GPIO_IO_pin[1] LOC=J16 |	IOSTANDARD = LVCMOS33;
+
+Net tft_ctrl_0_DB_BUS_pin[1] LOC=L14  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_DB_BUS_pin[3] LOC=M14  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_DB_BUS_pin[5] LOC=U17  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_DB_BUS_pin[7] LOC=T17  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_DB_BUS_pin[9] LOC=N15  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_DB_BUS_pin[11] LOC=P17  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_DB_BUS_pin[13] LOC=N17  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_DB_BUS_pin[15] LOC=M16  |  IOSTANDARD = LVCMOS33;
+
+Net tft_ctrl_0_LCD_RS_pin LOC=L17  |  IOSTANDARD = LVCMOS33;
+Net tft_ctrl_0_LCD_RD_pin LOC=K17  |  IOSTANDARD = LVCMOS33;
+
+
+CONFIG VCCAUX=2.5; # Valid values are 2.5 and 3.3
+CONFIG MCB_PERFORMANCE= STANDARD;
+
+#INST "MCB_DDR2/axi_s6_ddrx_0/mcb_ui_top_0/gen_spartan6_bufpll_mcb.bufpll_0" LOC= BUFPLL_MCB_X0Y5;
+
+net"MCB_DDR2_dram_addr<12>" loc = G6;
+net"MCB_DDR2_dram_addr<11>" loc = D3;
+net"MCB_DDR2_dram_addr<10>" loc = F4;
+net"MCB_DDR2_dram_addr<9>" loc = D1;
+net"MCB_DDR2_dram_addr<8>" loc = D2;
+net"MCB_DDR2_dram_addr<7>" loc = H6;
+net"MCB_DDR2_dram_addr<6>" loc = H3;
+net"MCB_DDR2_dram_addr<5>" loc = H4;
+net"MCB_DDR2_dram_addr<4>" loc = F3;
+net"MCB_DDR2_dram_addr<3>" loc = L7;
+net"MCB_DDR2_dram_addr<2>" loc = H5;
+net"MCB_DDR2_dram_addr<1>" loc = J6;
+net"MCB_DDR2_dram_addr<0>" loc = J7;
+
+net"MCB_DDR2_dram_ba<1>" loc = F1;
+net"MCB_DDR2_dram_ba<0>" loc = F2;
+net"MCB_DDR2_dram_cas_n" loc = K5;
+net"MCB_DDR2_dram_cke"   loc = H7;
+net"MCB_DDR2_dram_clk_n" loc = G1;
+net"MCB_DDR2_dram_clk"   loc = G3;
+
+net"MCB_DDR2_dram_dq<15>" loc = U1;
+net"MCB_DDR2_dram_dq<14>" loc = U2;
+net"MCB_DDR2_dram_dq<13>" loc = T1;
+net"MCB_DDR2_dram_dq<12>" loc = T2;
+net"MCB_DDR2_dram_dq<11>" loc = N1;
+net"MCB_DDR2_dram_dq<10>" loc = N2;
+net"MCB_DDR2_dram_dq<9>" loc = M1;
+net"MCB_DDR2_dram_dq<8>" loc = M3;
+net"MCB_DDR2_dram_dq<7>" loc = J1;
+net"MCB_DDR2_dram_dq<6>" loc = J3;
+net"MCB_DDR2_dram_dq<5>" loc = H1;
+net"MCB_DDR2_dram_dq<4>" loc = H2;
+net"MCB_DDR2_dram_dq<3>" loc = K1;
+net"MCB_DDR2_dram_dq<2>" loc = K2;
+net"MCB_DDR2_dram_dq<1>" loc = L1;
+net"MCB_DDR2_dram_dq<0>" loc = L2;
+
+net"MCB_DDR2_dram_dqs" loc = L4;
+net"MCB_DDR2_dram_udqs" loc = P2;
+
+net"MCB_DDR2_dram_ldm" loc = K3;
+net"MCB_DDR2_dram_ras_n" loc = L5;
+net"MCB_DDR2_dram_udm" loc = K4;
+net"MCB_DDR2_dram_we_n" loc = E3;
+net"MCB_DDR2_rzq" loc = C2;
+
+CONFIG PROHIBIT = P1,L3;
+NET  "MCB_DDR2_dram_dq[*]"                                     IOSTANDARD = MOBILE_DDR ;
+NET  "MCB_DDR2_dram_addr[*]"                         IOSTANDARD = MOBILE_DDR ;
+NET  "MCB_DDR2_dram_ba[*]"                           IOSTANDARD = MOBILE_DDR ;
+NET  "MCB_DDR2_dram_dqs"                                       IOSTANDARD = MOBILE_DDR ;
+NET  "MCB_DDR2_dram_udqs"                                      IOSTANDARD = MOBILE_DDR ;
+NET  "MCB_DDR2_dram_clk"                             IOSTANDARD = DIFF_MOBILE_DDR ;
+NET  "MCB_DDR2_dram_clk_n"                           IOSTANDARD = DIFF_MOBILE_DDR ;
+NET  "MCB_DDR2_dram_cke"                             IOSTANDARD = MOBILE_DDR ;
+NET  "MCB_DDR2_dram_ras_n"                           IOSTANDARD = MOBILE_DDR ;
+NET  "MCB_DDR2_dram_cas_n"                           IOSTANDARD = MOBILE_DDR ;
+NET  "MCB_DDR2_dram_we_n"                            IOSTANDARD = MOBILE_DDR ;
+NET  "MCB_DDR2_dram_ldm"                             IOSTANDARD = MOBILE_DDR ;
+NET  "MCB_DDR2_dram_udm"                             IOSTANDARD = MOBILE_DDR ;
+NET  "MCB_DDR2_rzq"                                            IOSTANDARD = MOBILE_DDR ;

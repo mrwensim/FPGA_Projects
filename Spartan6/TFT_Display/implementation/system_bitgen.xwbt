@@ -1,0 +1,7 @@
+INFILE=D:\Study\FPGA\Spartan6\TFT_Display\implementation\system.ncd
+OUTFILE=D:\Study\FPGA\Spartan6\TFT_Display\implementation\system.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=D:\Study\FPGA\Spartan6\TFT_Display\implementation
+LICENSE=WebPack
+USER_INFO=_

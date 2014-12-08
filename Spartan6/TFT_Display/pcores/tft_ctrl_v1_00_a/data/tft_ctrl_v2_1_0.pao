@@ -1,0 +1,8 @@
+##############################################################################
+## Filename:          D:\Study\FPGA\Spartan6\TFT_Display\pcores/tft_ctrl_v1_00_a/data/tft_ctrl_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Sat Dec 06 00:54:57 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib tft_ctrl_v1_00_a tft_ctrl verilog
+lib tft_ctrl_v1_00_a lcd_ctrl verilog

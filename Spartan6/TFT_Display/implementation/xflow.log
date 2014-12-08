@@ -1,0 +1,1286 @@
+Release 14.7 Xflow P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+xflow.exe -wd implementation -p xc6slx16csg324-2 -implement xflow.opt system.ngc
+ 
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/14.7/ISE_DS/EDK/spartan6/data/spartan6.acd> with local file
+<C:/Xilinx/14.7/ISE_DS/ISE/spartan6/data/spartan6.acd>
+
+Using Flow File: D:/Study/FPGA/Spartan6/TFT_Display/implementation/fpga.flw 
+Using Option File(s): 
+ D:/Study/FPGA/Spartan6/TFT_Display/implementation/xflow.opt 
+
+Creating Script File ... 
+
+#----------------------------------------------#
+# Starting program ngdbuild
+# ngdbuild -p xc6slx16csg324-2 -nt timestamp -bm system.bmm
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system.ngc" -uc system.ucf
+system.ngd 
+#----------------------------------------------#
+Release 14.7 - ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/14.7/ISE_DS/EDK/spartan6/data/spartan6.acd> with local file
+<C:/Xilinx/14.7/ISE_DS/ISE/spartan6/data/spartan6.acd>
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe -p
+xc6slx16csg324-2 -nt timestamp -bm system.bmm
+D:/Study/FPGA/Spartan6/TFT_Display/implementation/system.ngc -uc system.ucf
+system.ngd
+
+Reading NGO file "D:/Study/FPGA/Spartan6/TFT_Display/implementation/system.ngc"
+...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_rs232_wrapper.ngc"...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_proc_sys_reset_0_wrapp
+er.ngc"...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_clock_generator_0_wrap
+per.ngc"...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_fsl_v20_0_wrapper.ngc"
+...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_microblaze_0_ilmb_wrap
+per.ngc"...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_microblaze_0_dlmb_wrap
+per.ngc"...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_mcb_ddr2_wrapper.ngc".
+..
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_axi4lite_0_wrapper.ngc
+"...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_axi4_0_wrapper.ngc"...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_microblaze_0_wrapper.n
+gc"...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_tft_ctrl_0_wrapper.ngc
+"...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_microblaze_0_i_bram_ct
+rl_wrapper.ngc"...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_microblaze_0_d_bram_ct
+rl_wrapper.ngc"...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_debug_module_wrapper.n
+gc"...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_tft_rst_blcnt_wrapper.
+ngc"...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_axi_spi_0_wrapper.ngc"
+...
+Loading design module
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_microblaze_0_bram_bloc
+k_wrapper.ngc"...
+Applying constraints in
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_microblaze_0_ilmb_wrap
+per.ncf" to module "microblaze_0_ilmb"...
+Checking Constraint Associations...
+Applying constraints in
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_microblaze_0_dlmb_wrap
+per.ncf" to module "microblaze_0_dlmb"...
+Checking Constraint Associations...
+Applying constraints in
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_mcb_ddr2_wrapper.ncf"
+to module "MCB_DDR2"...
+Checking Constraint Associations...
+Applying constraints in
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_axi4lite_0_wrapper.ncf
+" to module "axi4lite_0"...
+Checking Constraint Associations...
+Applying constraints in
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_axi4_0_wrapper.ncf" to
+module "axi4_0"...
+Checking Constraint Associations...
+Applying constraints in
+"D:/Study/FPGA/Spartan6/TFT_Display/implementation/system_microblaze_0_wrapper.n
+cf" to module "microblaze_0"...
+Checking Constraint Associations...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "system.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:135 - Constraint <INST
+   /system/EXPANDED/system/axi4_0/axi4_0\/si_converter_bank\/gen_conv_slot[0].cl
+   ock_conv_inst\/interconnect_aresetn_resync<2>_inv1_INV_0 TNM =
+   FFS:axi4_0_reset_resync>: No instances of type FFS were found under block
+   "axi4_0/axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnec
+   t_aresetn_resync<2>_inv1_INV_0" (type=INV).
+
+WARNING:ConstraintSystem:135 - Constraint <INST
+   /system/EXPANDED/system/axi4lite_0/axi4lite_0\/si_converter_bank\/gen_conv_sl
+   ot[0].clock_conv_inst\/interconnect_aresetn_resync<2>_inv1_INV_0 TNM =
+   FFS:axi4lite_0_reset_resync>: No instances of type FFS were found under block
+   "axi4lite_0/axi4lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/int
+   erconnect_aresetn_resync<2>_inv1_INV_0" (type=INV).
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_rzq" LOC = C2>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_ldm" LOC = K3>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_udm" LOC = K4>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_udqs" LOC = P2>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dqs" LOC = L4>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_clk_n" LOC = G1>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_clk" LOC = G3>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_cke" LOC = H7>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_we_n" LOC = E3>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_cas_n" LOC = K5>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_ras_n" LOC = L5>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<0>" LOC = L2>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<1>" LOC = L1>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<2>" LOC = K2>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<3>" LOC = K1>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<4>" LOC = H2>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<5>" LOC = H1>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<6>" LOC = J3>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<7>" LOC = J1>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<8>" LOC = M3>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<9>" LOC = M1>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<10>" LOC = N2>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<11>" LOC = N1>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<12>" LOC = T2>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<13>" LOC = T1>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<14>" LOC = U2>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_dq<15>" LOC = U1>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_ba<0>" LOC = F2>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_ba<1>" LOC = F1>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_addr<0>" LOC = J7>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_addr<1>" LOC = J6>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_addr<2>" LOC = H5>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_addr<3>" LOC = L7>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_addr<4>" LOC = F3>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_addr<5>" LOC = H4>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_addr<6>" LOC = H3>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_addr<7>" LOC = H6>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_addr<8>" LOC = D2>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_addr<9>" LOC = D1>' could not be found and so the Locate
+   constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_addr<10>" LOC = F4>' could not be found and so the
+   Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_addr<11>" LOC = D3>' could not be found and so the
+   Locate constraint will be removed.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "MCB_DDR2_dram_addr<12>" LOC = G6>' could not be found and so the
+   Locate constraint will be removed.
+
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP axi4lite_0_reset_source = FFS
+   PADS CPUS;>: CPUS "*" does not match any design objects.
+
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP axi4_0_reset_source = FFS PADS
+   CPUS;>: CPUS "*" does not match any design objects.
+
+WARNING:ConstraintSystem:194 - The TNM 'axi4_0_reset_resync', does not directly
+   or indirectly drive any flip-flops, latches and/or RAMs and is not actively
+   used by any referencing constraint.
+
+WARNING:ConstraintSystem:194 - The TNM 'axi4lite_0_reset_resync', does not
+   directly or indirectly drive any flip-flops, latches and/or RAMs and is not
+   actively used by any referencing constraint.
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_clk_600_0000MHz180PLL0_nobuf = PERIOD
+   "clk_600_0000MHz180PLL0_nobuf" TS_sys_clk_pin * 8 PHASE 1.25 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_clk_600_0000MHzPLL0_nobuf = PERIOD
+   "clk_600_0000MHzPLL0_nobuf" TS_sys_clk_pin * 8 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT2 =
+   PERIOD "clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT2" TS_sys_clk_pin
+   * 2 HIGH 50%>
+
+WARNING:NgdBuild:1012 - The constraint <CONFIG VCCAUX = "2.5"> is overridden on
+   the design object system by the constraint <CONFIG VCCAUX=2.5;>
+   [system.ucf(48)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_rzq" LOC = C2> is
+   overridden on the design object MCB_DDR2_rzq by the constraint
+   <net"MCB_DDR2_rzq" loc = C2;> [system.ucf(98)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_rzq" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_rzq by the
+   constraint <NET  "MCB_DDR2_rzq"                                           
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(114)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_ldm" LOC = K3> is
+   overridden on the design object MCB_DDR2_dram_ldm by the constraint
+   <net"MCB_DDR2_dram_ldm" loc = K3;> [system.ucf(94)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_ldm" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_ldm by the
+   constraint <NET  "MCB_DDR2_dram_ldm"                             IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(112)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_udm" LOC = K4> is
+   overridden on the design object MCB_DDR2_dram_udm by the constraint
+   <net"MCB_DDR2_dram_udm" loc = K4;> [system.ucf(96)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_udm" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_udm by the
+   constraint <NET  "MCB_DDR2_dram_udm"                             IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(113)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_udqs" LOC = P2> is
+   overridden on the design object MCB_DDR2_dram_udqs by the constraint
+   <net"MCB_DDR2_dram_udqs" loc = P2;> [system.ucf(92)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_udqs" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_udqs by the
+   constraint <NET  "MCB_DDR2_dram_udqs"                                     
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(105)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dqs" LOC = L4> is
+   overridden on the design object MCB_DDR2_dram_dqs by the constraint
+   <net"MCB_DDR2_dram_dqs" loc = L4;> [system.ucf(91)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dqs" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dqs by the
+   constraint <NET  "MCB_DDR2_dram_dqs"                                      
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(104)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_clk_n" LOC = G1> is
+   overridden on the design object MCB_DDR2_dram_clk_n by the constraint
+   <net"MCB_DDR2_dram_clk_n" loc = G1;> [system.ucf(71)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_clk_n" IOSTANDARD =
+   "DIFF_MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_clk_n by
+   the constraint <NET  "MCB_DDR2_dram_clk_n"                          
+   IOSTANDARD = DIFF_MOBILE_DDR ;> [system.ucf(107)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_clk" LOC = G3> is
+   overridden on the design object MCB_DDR2_dram_clk by the constraint
+   <net"MCB_DDR2_dram_clk"   loc = G3;> [system.ucf(72)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_clk" IOSTANDARD =
+   "DIFF_MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_clk by
+   the constraint <NET  "MCB_DDR2_dram_clk"                            
+   IOSTANDARD = DIFF_MOBILE_DDR ;> [system.ucf(106)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_cke" LOC = H7> is
+   overridden on the design object MCB_DDR2_dram_cke by the constraint
+   <net"MCB_DDR2_dram_cke"   loc = H7;> [system.ucf(70)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_cke" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_cke by the
+   constraint <NET  "MCB_DDR2_dram_cke"                             IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(108)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_we_n" LOC = E3> is
+   overridden on the design object MCB_DDR2_dram_we_n by the constraint
+   <net"MCB_DDR2_dram_we_n" loc = E3;> [system.ucf(97)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_we_n" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_we_n by the
+   constraint <NET  "MCB_DDR2_dram_we_n"                            IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(111)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_cas_n" LOC = K5> is
+   overridden on the design object MCB_DDR2_dram_cas_n by the constraint
+   <net"MCB_DDR2_dram_cas_n" loc = K5;> [system.ucf(69)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_cas_n" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_cas_n by the
+   constraint <NET  "MCB_DDR2_dram_cas_n"                           IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(110)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_ras_n" LOC = L5> is
+   overridden on the design object MCB_DDR2_dram_ras_n by the constraint
+   <net"MCB_DDR2_dram_ras_n" loc = L5;> [system.ucf(95)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_ras_n" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_ras_n by the
+   constraint <NET  "MCB_DDR2_dram_ras_n"                           IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(109)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<0>" LOC = L2> is
+   overridden on the design object MCB_DDR2_dram_dq<0> by the constraint
+   <net"MCB_DDR2_dram_dq<0>" loc = L2;> [system.ucf(89)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<0>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<0> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<1>" LOC = L1> is
+   overridden on the design object MCB_DDR2_dram_dq<1> by the constraint
+   <net"MCB_DDR2_dram_dq<1>" loc = L1;> [system.ucf(88)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<1>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<1> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<2>" LOC = K2> is
+   overridden on the design object MCB_DDR2_dram_dq<2> by the constraint
+   <net"MCB_DDR2_dram_dq<2>" loc = K2;> [system.ucf(87)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<2>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<2> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<3>" LOC = K1> is
+   overridden on the design object MCB_DDR2_dram_dq<3> by the constraint
+   <net"MCB_DDR2_dram_dq<3>" loc = K1;> [system.ucf(86)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<3>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<3> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<4>" LOC = H2> is
+   overridden on the design object MCB_DDR2_dram_dq<4> by the constraint
+   <net"MCB_DDR2_dram_dq<4>" loc = H2;> [system.ucf(85)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<4>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<4> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<5>" LOC = H1> is
+   overridden on the design object MCB_DDR2_dram_dq<5> by the constraint
+   <net"MCB_DDR2_dram_dq<5>" loc = H1;> [system.ucf(84)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<5>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<5> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<6>" LOC = J3> is
+   overridden on the design object MCB_DDR2_dram_dq<6> by the constraint
+   <net"MCB_DDR2_dram_dq<6>" loc = J3;> [system.ucf(83)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<6>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<6> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<7>" LOC = J1> is
+   overridden on the design object MCB_DDR2_dram_dq<7> by the constraint
+   <net"MCB_DDR2_dram_dq<7>" loc = J1;> [system.ucf(82)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<7>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<7> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<8>" LOC = M3> is
+   overridden on the design object MCB_DDR2_dram_dq<8> by the constraint
+   <net"MCB_DDR2_dram_dq<8>" loc = M3;> [system.ucf(81)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<8>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<8> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<9>" LOC = M1> is
+   overridden on the design object MCB_DDR2_dram_dq<9> by the constraint
+   <net"MCB_DDR2_dram_dq<9>" loc = M1;> [system.ucf(80)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<9>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<9> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<10>" LOC = N2> is
+   overridden on the design object MCB_DDR2_dram_dq<10> by the constraint
+   <net"MCB_DDR2_dram_dq<10>" loc = N2;> [system.ucf(79)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<10>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<10> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<11>" LOC = N1> is
+   overridden on the design object MCB_DDR2_dram_dq<11> by the constraint
+   <net"MCB_DDR2_dram_dq<11>" loc = N1;> [system.ucf(78)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<11>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<11> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<12>" LOC = T2> is
+   overridden on the design object MCB_DDR2_dram_dq<12> by the constraint
+   <net"MCB_DDR2_dram_dq<12>" loc = T2;> [system.ucf(77)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<12>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<12> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<13>" LOC = T1> is
+   overridden on the design object MCB_DDR2_dram_dq<13> by the constraint
+   <net"MCB_DDR2_dram_dq<13>" loc = T1;> [system.ucf(76)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<13>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<13> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<14>" LOC = U2> is
+   overridden on the design object MCB_DDR2_dram_dq<14> by the constraint
+   <net"MCB_DDR2_dram_dq<14>" loc = U2;> [system.ucf(75)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<14>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<14> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<15>" LOC = U1> is
+   overridden on the design object MCB_DDR2_dram_dq<15> by the constraint
+   <net"MCB_DDR2_dram_dq<15>" loc = U1;> [system.ucf(74)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_dq<15>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_dq<15> by the
+   constraint <NET  "MCB_DDR2_dram_dq[*]"                                    
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(101)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_ba<0>" LOC = F2> is
+   overridden on the design object MCB_DDR2_dram_ba<0> by the constraint
+   <net"MCB_DDR2_dram_ba<0>" loc = F2;> [system.ucf(68)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_ba<0>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_ba<0> by the
+   constraint <NET  "MCB_DDR2_dram_ba[*]"                           IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(103)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_ba<1>" LOC = F1> is
+   overridden on the design object MCB_DDR2_dram_ba<1> by the constraint
+   <net"MCB_DDR2_dram_ba<1>" loc = F1;> [system.ucf(67)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_ba<1>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_ba<1> by the
+   constraint <NET  "MCB_DDR2_dram_ba[*]"                           IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(103)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<0>" LOC = J7> is
+   overridden on the design object MCB_DDR2_dram_addr<0> by the constraint
+   <net"MCB_DDR2_dram_addr<0>" loc = J7;> [system.ucf(65)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<0>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_addr<0> by the
+   constraint <NET  "MCB_DDR2_dram_addr[*]"                         IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(102)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<1>" LOC = J6> is
+   overridden on the design object MCB_DDR2_dram_addr<1> by the constraint
+   <net"MCB_DDR2_dram_addr<1>" loc = J6;> [system.ucf(64)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<1>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_addr<1> by the
+   constraint <NET  "MCB_DDR2_dram_addr[*]"                         IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(102)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<2>" LOC = H5> is
+   overridden on the design object MCB_DDR2_dram_addr<2> by the constraint
+   <net"MCB_DDR2_dram_addr<2>" loc = H5;> [system.ucf(63)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<2>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_addr<2> by the
+   constraint <NET  "MCB_DDR2_dram_addr[*]"                         IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(102)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<3>" LOC = L7> is
+   overridden on the design object MCB_DDR2_dram_addr<3> by the constraint
+   <net"MCB_DDR2_dram_addr<3>" loc = L7;> [system.ucf(62)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<3>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_addr<3> by the
+   constraint <NET  "MCB_DDR2_dram_addr[*]"                         IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(102)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<4>" LOC = F3> is
+   overridden on the design object MCB_DDR2_dram_addr<4> by the constraint
+   <net"MCB_DDR2_dram_addr<4>" loc = F3;> [system.ucf(61)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<4>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_addr<4> by the
+   constraint <NET  "MCB_DDR2_dram_addr[*]"                         IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(102)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<5>" LOC = H4> is
+   overridden on the design object MCB_DDR2_dram_addr<5> by the constraint
+   <net"MCB_DDR2_dram_addr<5>" loc = H4;> [system.ucf(60)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<5>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_addr<5> by the
+   constraint <NET  "MCB_DDR2_dram_addr[*]"                         IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(102)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<6>" LOC = H3> is
+   overridden on the design object MCB_DDR2_dram_addr<6> by the constraint
+   <net"MCB_DDR2_dram_addr<6>" loc = H3;> [system.ucf(59)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<6>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_addr<6> by the
+   constraint <NET  "MCB_DDR2_dram_addr[*]"                         IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(102)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<7>" LOC = H6> is
+   overridden on the design object MCB_DDR2_dram_addr<7> by the constraint
+   <net"MCB_DDR2_dram_addr<7>" loc = H6;> [system.ucf(58)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<7>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_addr<7> by the
+   constraint <NET  "MCB_DDR2_dram_addr[*]"                         IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(102)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<8>" LOC = D2> is
+   overridden on the design object MCB_DDR2_dram_addr<8> by the constraint
+   <net"MCB_DDR2_dram_addr<8>" loc = D2;> [system.ucf(57)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<8>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_addr<8> by the
+   constraint <NET  "MCB_DDR2_dram_addr[*]"                         IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(102)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<9>" LOC = D1> is
+   overridden on the design object MCB_DDR2_dram_addr<9> by the constraint
+   <net"MCB_DDR2_dram_addr<9>" loc = D1;> [system.ucf(56)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<9>" IOSTANDARD =
+   "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_addr<9> by the
+   constraint <NET  "MCB_DDR2_dram_addr[*]"                         IOSTANDARD =
+   MOBILE_DDR ;> [system.ucf(102)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<10>" LOC = F4>
+   is overridden on the design object MCB_DDR2_dram_addr<10> by the constraint
+   <net"MCB_DDR2_dram_addr<10>" loc = F4;> [system.ucf(55)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<10>" IOSTANDARD
+   = "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_addr<10> by
+   the constraint <NET  "MCB_DDR2_dram_addr[*]"                        
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(102)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<11>" LOC = D3>
+   is overridden on the design object MCB_DDR2_dram_addr<11> by the constraint
+   <net"MCB_DDR2_dram_addr<11>" loc = D3;> [system.ucf(54)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<11>" IOSTANDARD
+   = "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_addr<11> by
+   the constraint <NET  "MCB_DDR2_dram_addr[*]"                        
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(102)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<12>" LOC = G6>
+   is overridden on the design object MCB_DDR2_dram_addr<12> by the constraint
+   <net"MCB_DDR2_dram_addr<12>" loc = G6;> [system.ucf(53)].
+WARNING:NgdBuild:1012 - The constraint <NET "MCB_DDR2_dram_addr<12>" IOSTANDARD
+   = "MOBILE_DDR"> is overridden on the design object MCB_DDR2_dram_addr<12> by
+   the constraint <NET  "MCB_DDR2_dram_addr[*]"                        
+   IOSTANDARD = MOBILE_DDR ;> [system.ucf(102)].
+Done...
+
+Processing BMM file "system.bmm" ...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Decode_I/Using_FPGA.
+   Gen_Bits[27].MEM_EX_Result_Inst' has unconnected output pin
+WARNING:NgdBuild:452 - logical net 'N27' has no driver
+WARNING:NgdBuild:452 - logical net 'N28' has no driver
+WARNING:NgdBuild:452 - logical net 'N29' has no driver
+WARNING:NgdBuild:452 - logical net 'N30' has no driver
+WARNING:NgdBuild:452 - logical net 'N31' has no driver
+WARNING:NgdBuild:452 - logical net 'N32' has no driver
+WARNING:NgdBuild:452 - logical net 'N33' has no driver
+WARNING:NgdBuild:452 - logical net 'N34' has no driver
+WARNING:NgdBuild:452 - logical net 'N35' has no driver
+WARNING:NgdBuild:452 - logical net 'N36' has no driver
+WARNING:NgdBuild:452 - logical net 'N37' has no driver
+WARNING:NgdBuild:452 - logical net 'N38' has no driver
+WARNING:NgdBuild:452 - logical net 'N39' has no driver
+WARNING:NgdBuild:452 - logical net 'N40' has no driver
+WARNING:NgdBuild:452 - logical net 'N41' has no driver
+WARNING:NgdBuild:452 - logical net 'N42' has no driver
+WARNING:NgdBuild:452 - logical net 'N45' has no driver
+WARNING:NgdBuild:452 - logical net 'N46' has no driver
+WARNING:NgdBuild:452 - logical net 'N47' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 153
+
+Writing NGD file "system.ngd" ...
+Total REAL time to NGDBUILD completion: 1 min  5 sec
+Total CPU time to NGDBUILD completion:  1 min  5 sec
+
+Writing NGDBUILD log file "system.bld"...
+
+NGDBUILD done.
+
+
+
+#----------------------------------------------#
+# Starting program map
+# map -o system_map.ncd -w -pr b -ol high -timing -detail system.ngd system.pcf 
+#----------------------------------------------#
+Release 14.7 - Map P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/14.7/ISE_DS/EDK/data/Xdh_PrimTypeLib.xda> with local file
+<C:/Xilinx/14.7/ISE_DS/ISE/data/Xdh_PrimTypeLib.xda>
+Using target part "6slx16csg324-2".
+Mapping design into LUTs...
+Writing file system_map.ngm...
+Running directed packing...
+WARNING:Pack:2780 - The register
+   "axi_spi_0/axi_spi_0/AXI_SPI_CORE_INTERFACE_I/SPI_MODULE_I/SPISEL_REG" has
+   the property IOB=TRUE, but it did not join an IO component because it is not
+   connected to any IO element.
+Running delay-based LUT packing...
+Updating timing models...
+WARNING:Timing:3223 - Timing constraint PATH "TS_TIG_MCB_DDR2_CALIB_DONE_SYNCH_path" TIG ignored during timing analysis.
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 17 secs 
+Total CPU  time at the beginning of Placer: 17 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:41fe24b2) REAL time: 19 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:41fe24b2) REAL time: 19 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:9b1f42ba) REAL time: 19 secs 
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+(Checksum:668b1ddc) REAL time: 25 secs 
+
+Phase 5.36  Local Placement Optimization
+Phase 5.36  Local Placement Optimization (Checksum:668b1ddc) REAL time: 25 secs 
+
+Phase 6.30  Global Clock Region Assignment
+Phase 6.30  Global Clock Region Assignment (Checksum:668b1ddc) REAL time: 25 secs 
+
+Phase 7.3  Local Placement Optimization
+Phase 7.3  Local Placement Optimization (Checksum:668b1ddc) REAL time: 25 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:668b1ddc) REAL time: 26 secs 
+
+Phase 9.8  Global Placement
+.........................
+...................................................
+.............................................................
+............................................................................
+..............................
+Phase 9.8  Global Placement (Checksum:32135c48) REAL time: 1 mins 10 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:32135c48) REAL time: 1 mins 10 secs 
+
+Phase 11.18  Placement Optimization
+Phase 11.18  Placement Optimization (Checksum:b9fa8ebc) REAL time: 1 mins 18 secs 
+
+Phase 12.5  Local Placement Optimization
+Phase 12.5  Local Placement Optimization (Checksum:b9fa8ebc) REAL time: 1 mins 18 secs 
+
+Phase 13.34  Placement Validation
+Phase 13.34  Placement Validation (Checksum:9ddeaf0d) REAL time: 1 mins 18 secs 
+
+Total REAL time to Placer completion: 1 mins 19 secs 
+Total CPU  time to Placer completion: 1 mins 18 secs 
+Running post-placement packing...
+Writing output files...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   25
+Slice Logic Utilization:
+  Number of Slice Registers:                 2,704 out of  18,224   14%
+    Number used as Flip Flops:               2,694
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:               10
+  Number of Slice LUTs:                      3,388 out of   9,112   37%
+    Number used as logic:                    3,066 out of   9,112   33%
+      Number using O6 output only:           2,369
+      Number using O5 output only:              57
+      Number using O5 and O6:                  640
+      Number used as ROM:                        0
+    Number used as Memory:                     230 out of   2,176   10%
+      Number used as Dual Port RAM:             88
+        Number using O6 output only:             4
+        Number using O5 output only:             0
+        Number using O5 and O6:                 84
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           142
+        Number using O6 output only:            40
+        Number using O5 output only:             1
+        Number using O5 and O6:                101
+    Number used exclusively as route-thrus:     92
+      Number with same-slice register load:     78
+      Number with same-slice carry load:         8
+      Number with other load:                    6
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,420 out of   2,278   62%
+  Number of MUXCYs used:                       344 out of   4,556    7%
+  Number of LUT Flip Flop pairs used:        4,033
+    Number with an unused Flip Flop:         1,558 out of   4,033   38%
+    Number with an unused LUT:                 645 out of   4,033   15%
+    Number of fully used LUT-FF pairs:       1,830 out of   4,033   45%
+    Number of unique control sets:             231
+    Number of slice register sites lost
+      to control set restrictions:             915 out of  18,224    5%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        72 out of     232   31%
+    Number of LOCed IOBs:                       72 out of      72  100%
+    IOB Flip Flops:                             11
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        14 out of      32   43%
+  Number of RAMB8BWERs:                          0 out of      64    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       2 out of      16   12%
+    Number used as BUFGs:                        2
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
+  Number of ILOGIC2/ISERDES2s:                   4 out of     248    1%
+    Number used as ILOGIC2s:                     4
+    Number used as ISERDES2s:                    0
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:        23 out of     248    9%
+    Number used as IODELAY2s:                    0
+    Number used as IODRP2s:                      1
+    Number used as IODRP2_MCBs:                 22
+  Number of OLOGIC2/OSERDES2s:                  48 out of     248   19%
+    Number used as OLOGIC2s:                     5
+    Number used as OSERDES2s:                   43
+  Number of BSCANs:                              1 out of       4   25%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         1 out of       4   25%
+  Number of DSP48A1s:                            3 out of      32    9%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                1 out of       2   50%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            1 out of       2   50%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                3.80
+
+Peak Memory Usage:  494 MB
+Total REAL time to MAP completion:  1 mins 24 secs 
+Total CPU time to MAP completion:   1 mins 23 secs 
+
+Mapping completed.
+See MAP report file "system_map.mrp" for details.
+
+
+
+#----------------------------------------------#
+# Starting program par
+# par -w -ol high system_map.ncd system.ncd system.pcf 
+#----------------------------------------------#
+Release 14.7 - par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file <C:/Xilinx/14.7/ISE_DS/EDK/data/parBmgr.acd> with local file
+<C:/Xilinx/14.7/ISE_DS/ISE/data/parBmgr.acd>
+
+
+
+Constraints file: system.pcf.
+Loading device for application Rf_Device from file '6slx16.nph' in environment
+C:\Xilinx\14.7\ISE_DS\ISE\;C:\Xilinx\14.7\ISE_DS\EDK.
+   "system" is an NCD, version 3.2, device xc6slx16, package csg324, speed -2
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.23 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 2,704 out of  18,224   14%
+    Number used as Flip Flops:               2,694
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:               10
+  Number of Slice LUTs:                      3,388 out of   9,112   37%
+    Number used as logic:                    3,066 out of   9,112   33%
+      Number using O6 output only:           2,369
+      Number using O5 output only:              57
+      Number using O5 and O6:                  640
+      Number used as ROM:                        0
+    Number used as Memory:                     230 out of   2,176   10%
+      Number used as Dual Port RAM:             88
+        Number using O6 output only:             4
+        Number using O5 output only:             0
+        Number using O5 and O6:                 84
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           142
+        Number using O6 output only:            40
+        Number using O5 output only:             1
+        Number using O5 and O6:                101
+    Number used exclusively as route-thrus:     92
+      Number with same-slice register load:     78
+      Number with same-slice carry load:         8
+      Number with other load:                    6
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,420 out of   2,278   62%
+  Number of MUXCYs used:                       344 out of   4,556    7%
+  Number of LUT Flip Flop pairs used:        4,033
+    Number with an unused Flip Flop:         1,558 out of   4,033   38%
+    Number with an unused LUT:                 645 out of   4,033   15%
+    Number of fully used LUT-FF pairs:       1,830 out of   4,033   45%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of  18,224    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        72 out of     232   31%
+    Number of LOCed IOBs:                       72 out of      72  100%
+    IOB Flip Flops:                             11
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        14 out of      32   43%
+  Number of RAMB8BWERs:                          0 out of      64    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       2 out of      16   12%
+    Number used as BUFGs:                        2
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
+  Number of ILOGIC2/ISERDES2s:                   4 out of     248    1%
+    Number used as ILOGIC2s:                     4
+    Number used as ISERDES2s:                    0
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:        23 out of     248    9%
+    Number used as IODELAY2s:                    0
+    Number used as IODRP2s:                      1
+    Number used as IODRP2_MCBs:                 22
+  Number of OLOGIC2/OSERDES2s:                  48 out of     248   19%
+    Number used as OLOGIC2s:                     5
+    Number used as OSERDES2s:                   43
+  Number of BSCANs:                              1 out of       4   25%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         1 out of       4   25%
+  Number of DSP48A1s:                            3 out of      32    9%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                1 out of       2   50%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            1 out of       2   50%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+WARNING:Timing:3223 - Timing constraint PATH "TS_TIG_MCB_DDR2_CALIB_DONE_SYNCH_path" TIG; ignored during timing analysis.
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
+   Command Line Tools User Guide for information on generating a TSI report.
+Starting initial Timing Analysis.  REAL time: 8 secs 
+Finished initial Timing Analysis.  REAL time: 9 secs 
+
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy3_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy2_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy1_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy4_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[2].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[5].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[1].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[14].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[8].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[3].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[6].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[0].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal microblaze_0_d_bram_ctrl_2_microblaze_0_bram_block_BRAM_Addr<30> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy5_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal microblaze_0_d_bram_ctrl_2_microblaze_0_bram_block_BRAM_Addr<31> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[15].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[9].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[13].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[7].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[4].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[11].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[10].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[12].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 23647 unrouted;      REAL time: 9 secs 
+
+Phase  2  : 19718 unrouted;      REAL time: 10 secs 
+
+Phase  3  : 8503 unrouted;      REAL time: 20 secs 
+
+Phase  4  : 8507 unrouted; (Setup:0, Hold:200, Component Switching Limit:0)     REAL time: 22 secs 
+
+Updating file: system.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:228, Component Switching Limit:0)     REAL time: 36 secs 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:228, Component Switching Limit:0)     REAL time: 36 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:228, Component Switching Limit:0)     REAL time: 36 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:228, Component Switching Limit:0)     REAL time: 36 secs 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 37 secs 
+
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 38 secs 
+Total REAL time to Router completion: 38 secs 
+Total CPU time to Router completion: 39 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+| clk_100_0000MHzPLL0 |  BUFGMUX_X2Y3| No   | 1168 |  0.703     |  1.776      |
++---------------------+--------------+------+------+------------+-------------+
+|microblaze_0_debug_D |              |      |      |            |             |
+|              bg_Clk | BUFGMUX_X3Y13| No   |   62 |  0.064     |  1.137      |
++---------------------+--------------+------+------+------------+-------------+
+|microblaze_0_debug_D |              |      |      |            |             |
+|           bg_Update |         Local|      |   21 |  2.352     |  3.671      |
++---------------------+--------------+------+------+------------+-------------+
+|MCB_DDR2/sysclk_2x_b |              |      |      |            |             |
+|             ufpll_o |         Local|      |   31 |  0.704     |  1.116      |
++---------------------+--------------+------+------+------------+-------------+
+|MCB_DDR2/sysclk_2x_1 |              |      |      |            |             |
+|         80_bufpll_o |         Local|      |   37 |  0.723     |  1.135      |
++---------------------+--------------+------+------+------------+-------------+
+|MCB_DDR2/MCB_DDR2/mc |              |      |      |            |             |
+|b_ui_top_0/mcb_raw_w |              |      |      |            |             |
+|rapper_inst/ioi_drp_ |              |      |      |            |             |
+|                 clk |         Local|      |   22 |  0.000     |  0.002      |
++---------------------+--------------+------+------+------------+-------------+
+|MCB_DDR2/MCB_DDR2/mc |              |      |      |            |             |
+|b_ui_top_0/mcb_raw_w |              |      |      |            |             |
+|rapper_inst/idelay_d |              |      |      |            |             |
+|            qs_ioi_s |         Local|      |    1 |  0.000     |  0.002      |
++---------------------+--------------+------+------+------------+-------------+
+|MCB_DDR2/MCB_DDR2/mc |              |      |      |            |             |
+|b_ui_top_0/mcb_raw_w |              |      |      |            |             |
+|rapper_inst/idelay_d |              |      |      |            |             |
+|            qs_ioi_m |         Local|      |    1 |  0.000     |  0.002      |
++---------------------+--------------+------+------+------------+-------------+
+|MCB_DDR2/MCB_DDR2/mc |              |      |      |            |             |
+|b_ui_top_0/mcb_raw_w |              |      |      |            |             |
+|rapper_inst/idelay_u |              |      |      |            |             |
+|           dqs_ioi_s |         Local|      |    1 |  0.000     |  0.002      |
++---------------------+--------------+------+------+------------+-------------+
+|MCB_DDR2/MCB_DDR2/mc |              |      |      |            |             |
+|b_ui_top_0/mcb_raw_w |              |      |      |            |             |
+|rapper_inst/idelay_u |              |      |      |            |             |
+|           dqs_ioi_m |         Local|      |    1 |  0.000     |  0.002      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Number of Timing Constraints that were not applied: 4
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     0.233ns|     9.767ns|       0|           0
+  G_PLL0_CLKOUT2 = PERIOD TIMEGRP         " | HOLD        |     0.272ns|            |       0|           0
+  clock_generator_0_clock_generator_0_SIG_P |             |            |            |        |            
+  LL0_CLKOUT2" TS_sys_clk_pin         * 2 H |             |            |            |        |            
+  IGH 50%                                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clk_600_0000MHz180PLL0_nobuf = PERIOD  | MINPERIOD   |     0.901ns|     1.599ns|       0|           0
+  TIMEGRP         "clk_600_0000MHz180PLL0_n |             |            |            |        |            
+  obuf" TS_sys_clk_pin * 8 PHASE 1.25 ns HI |             |            |            |        |            
+  GH         50%                            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clk_600_0000MHzPLL0_nobuf = PERIOD TIM | MINPERIOD   |     0.901ns|     1.599ns|       0|           0
+  EGRP "clk_600_0000MHzPLL0_nobuf"          |             |            |            |        |            
+  TS_sys_clk_pin * 8 HIGH 50%               |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | MINLOWPULSE |    15.000ns|     5.000ns|       0|           0
+  pin" 50 MHz HIGH 50%                      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_TIG_microblaze_0_Reset_path" TIG | SETUP       |         N/A|     2.723ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_axi4_0_reset_resync_path" TIG    | MAXDELAY    |         N/A|     8.802ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_axi4lite_0_reset_resync_path" TI | MAXDELAY    |         N/A|     8.794ns|     N/A|           0
+  G                                         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_TIG_MCB_DDR2_CALIB_DONE_SYNCH_pa | N/A         |         N/A|         N/A|     N/A|         N/A
+  th" TIG                                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_TIG_MCB_DDR2_SYS_RST_SYNCH_path" | SETUP       |         N/A|     1.998ns|     N/A|           0
+   TIG                                      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_TIG_microblaze_0_dlmb_POR_FF_I_p | SETUP       |         N/A|     1.777ns|     N/A|           0
+  ath" TIG                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_TIG_microblaze_0_ilmb_POR_FF_I_p | SETUP       |         N/A|     2.726ns|     N/A|           0
+  ath" TIG                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_sys_clk_pin
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_pin                 |     20.000ns|      5.000ns|     19.534ns|            0|            0|            0|       436932|
+| TS_clk_600_0000MHz180PLL0_nobu|      2.500ns|      1.599ns|          N/A|            0|            0|            0|            0|
+| f                             |             |             |             |             |             |             |             |
+| TS_clk_600_0000MHzPLL0_nobuf  |      2.500ns|      1.599ns|          N/A|            0|            0|            0|            0|
+| TS_clock_generator_0_clock_gen|     10.000ns|      9.767ns|          N/A|            0|            0|       436932|            0|
+| erator_0_SIG_PLL0_CLKOUT2     |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 23 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 44 secs 
+Total CPU time to PAR completion: 42 secs 
+
+Peak Memory Usage:  477 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 26
+Number of info messages: 1
+
+Writing design to file system.ncd
+
+
+
+PAR done!
+
+
+
+#----------------------------------------------#
+# Starting program post_par_trce
+# trce -e 3 -xml system.twx system.ncd system.pcf 
+#----------------------------------------------#
+Release 14.7 - Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+
+PMSPEC -- Overriding Xilinx file
+<C:/Xilinx/14.7/ISE_DS/EDK/spartan6/data/spartan6.acd> with local file
+<C:/Xilinx/14.7/ISE_DS/ISE/spartan6/data/spartan6.acd>
+Loading device for application Rf_Device from file '6slx16.nph' in environment
+C:\Xilinx\14.7\ISE_DS\ISE\;C:\Xilinx\14.7\ISE_DS\EDK.
+   "system" is an NCD, version 3.2, device xc6slx16, package csg324, speed -2
+WARNING:Timing:3223 - Timing constraint PATH
+   "TS_TIG_MCB_DDR2_CALIB_DONE_SYNCH_path" TIG; ignored during timing analysis.
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more
+   information, see the TSI report.  Please consult the Xilinx Command Line
+   Tools User Guide for information on generating a TSI report.
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -e 3 -xml system.twx
+system.ncd system.pcf
+
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,speed:             xc6slx16,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths option. All paths that are not constrained will be reported in
+   the unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on a 50 Ohm transmission line loading model.  For the details of
+   this model, and for more information on accounting for different loading conditions, please see the device datasheet.
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0 (Setup/Max: 0, Hold: 0)
+
+Constraints cover 436954 paths, 0 nets, and 19218 connections
+
+Design statistics:
+   Minimum period:   9.767ns (Maximum frequency: 102.386MHz)
+
+
+Analysis completed Mon Dec 08 18:15:09 2014
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 1
+Number of info messages: 4
+Total time: 11 secs 
+
+
